@@ -1,18 +1,29 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+
 @custom-variant dark (&:is(.dark *));
 
 *{
   box-sizing: border-box;
 }
 
-body{
-  background-color: black;
+img{
+  z-index: 1;
 }
 
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+main, header {
+  background-color: rgb(1, 0, 2);
+}
+
+
 @theme {
-    --color-main: oklch(25.7% 0.09 281.288);
+    --color-main: oklch(60.6% 0.25 292.717);
 }
 
 @layer utilities {
@@ -22,7 +33,26 @@ body{
     mix-blend-mode: difference;
   }
 
+  .font-title{
+    font-weight: 900;
+    
+  }
+
+  .font-title-alt{
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .font-title-sec{
+    font-weight: 700;
+  }
+  
+  .font-text{
+    font-weight: 600;
+  }
+
 }
+
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
