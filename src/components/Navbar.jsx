@@ -5,7 +5,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <header className="w-full h-full text-white bg-black border-b-[var(--color-main)] border-b-2">
+        <header className="w-full h-full text-white bg-black border-b-white border-b-1">
             <nav className="flex justify-between md:justify-around items-center p-5 ">
                 <div className=" text-lg md:text-xl lg:text-2xl">
                     <h1>Bernardo Soares</h1>
