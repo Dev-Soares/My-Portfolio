@@ -6,6 +6,7 @@
 
 *{
   box-sizing: border-box;
+  z-index: 0;
 }
 
 img{
@@ -22,8 +23,10 @@ main, header {
 }
 
 
+
+
 @theme {
-    --color-main: oklch(60.6% 0.25 292.717);
+    --color-main: oklch(60.6% 0.25 292.717) ;
 }
 
 @layer utilities {
@@ -50,6 +53,23 @@ main, header {
   .font-text{
     font-weight: 600;
   }
+
+  .link-animado::after {
+  content: '';
+  margin-top: 10px;
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;;
+  background-color: var(--color-main); /* Usa sua cor principal */
+  transition: width 0.6s ease-in-out;
+  transform: translateY(8px);
+}
+
+.link-animado:hover::after {
+  width: 100%;
+}
 
 }
 

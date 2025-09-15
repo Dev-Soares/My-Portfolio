@@ -10,19 +10,20 @@ const App = () => {
 
   return (
     <StarsBackground >
-      <main className=" pb-24">
+      <main className=" pb-24 ">
+        <Navbar />
         <section className="min-h-screen w-full flex flex-col md:flex-row md:justify-around justify-center items-center">
           <div className="flex flex-col justify-center items-center md:flex-row md:justify-center md:gap-3 lg:gap-6">  
-              <img src="../public/profilePhoto.jpg" alt="My Photo" className="w-[60%] md:w-[40%] lg:w-[35%] xl:w-[20%] rounded-full ml-10 lg:ml-16" />
+              <img src="../public/profilePhoto.jpg" alt="My Photo" className="w-[60%] md:w-[40%] lg:w-[35%] xl:w-[20%] rounded-full  self-center md:mb-8 lg:mb-12 xl:mb-16" />
           <div className="h-full w-auto flex justify-center items-center flex-col text-white p-4 gap-2 ">     
             <div className="flex flex-col justify-start items-start border-l-2 p-4 ">
             <h1 className="text-4xl lg:text-6xl font-title-alt text-[var(--color-main)]">Bernardo Soares</h1>
               <h2 className="text-6xl lg:text-7xl xl:text-9xl font-title">Frontend</h2>
             <h2 className="text-6xl lg:text-7xl xl:text-9xl font-title text-[var(--color-main)]">Developer</h2>
             </div>
-            <div className="flex flex-row justify-center items-center w-full gap-4 mt-2 xl:mt-6 font-title-sec h-auto">
-                <a href="" download className=" text-black bg-white p-2 rounded-lg text-lg md:text-xl lg:text-2xl lg:p-3 h-full ">Baixar CV</a>
-                <a href="" download className=" text-black bg-[var(--color-main)] p-2 rounded-lg text-lg md:text-xl lg:text-2xl lg:p-3 h-full">Contato</a>
+            <div className="flex flex-row justify-center items-center w-full gap-4 lg:gap-6 mt-2 xl:mt-6 font-title-sec h-auto">
+                <a href="/public/cv.docx" download  className=" text-black bg-white p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-110 hover:bg-[var(--color-main)] duration-800">Baixar CV</a>
+                <a href=""  className=" text-black bg-[var(--color-main)] p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-110 hover:bg-white duration-800">Contato</a>
             </div>  
           </div>
           </div>
@@ -46,14 +47,14 @@ const App = () => {
            <div className="w-full h-auto p-4 rounded-2xl text-black font-title justify-center items-center flex text-4xl bg-[var(--color-main)] m-8 lg:text-5xl lg:p-5 lg:mb-16 xl:max-w-[85%] ">
             <h2>Tecnologias</h2>
           </div>
-          <div className="flex flex-wrap gap-4 justify-center">
-          <CardTech stackImg='nodeIcon.png' borderColor='border-[var(--color-main)] hover:bg-[var(--color-main)] transition-color duration-800 ease-in-out' />
-          <CardTech stackImg='jsIcon.png' stackName='JavaScript' borderColor="hover:bg-white transition-color duration-800 ease-in-out" />
+          <div className="flex flex-wrap gap-4 justify-center lg:my-6 xl:my-24">
+          <CardTech stackImg='nodeIcon.png' borderColor='border-[var(--color-main)] hover:bg-[var(--color-main)] transition-color duration-1000 ease-in-out' />
+          <CardTech stackImg='jsIcon.png' stackName='JavaScript' borderColor="hover:bg-white transition-color duration-1000 ease-in-out" />
             <CardTech stackImg='reactIcon.png' stackName='React' borderColor='border-[var(--color-main)] hover:bg-[var(--color-main)] transition-color duration-600' />
-          <CardTech stackImg='cssIcon.png' stackName='CSS'  borderColor="hover:bg-white transition-color duration-800 ease-in-out" />
-          <CardTech stackImg='tailwindcssIcon.png' borderColor='border-[var(--color-main)] hover:bg-[var(--color-main)] transition-color duration-800 ease-in-out' />
-          <CardTech stackImg='gitIcon.png' borderColor="hover:bg-white transition-color duration-800 ease-in-out" />
-          <CardTech stackImg='htmlIcon.png' borderColor='border-[var(--color-main)] hover:bg-[var(--color-main)] transition-color duration-800 ease-in-out'  />
+          <CardTech stackImg='cssIcon.png' stackName='CSS'  borderColor="hover:bg-white transition-color duration-1000 ease-in-out" />
+          <CardTech stackImg='tailwindcssIcon.png' borderColor='border-[var(--color-main)] hover:bg-[var(--color-main)] transition-color duration-1000 ease-in-out' />
+          <CardTech stackImg='gitIcon.png' borderColor="hover:bg-white transition-color duration-1000 ease-in-out" />
+          <CardTech stackImg='htmlIcon.png' borderColor='border-[var(--color-main)] hover:bg-[var(--color-main)] transition-color duration-1000 ease-in-out'  />
           </div>
           
 
