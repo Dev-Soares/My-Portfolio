@@ -14,7 +14,7 @@ const App = () => {
         <Navbar />
         <section className="min-h-screen w-full flex flex-col md:flex-row md:justify-around justify-center items-center">
           <div className="flex flex-col justify-center items-center md:flex-row md:justify-center md:gap-3 lg:gap-6">  
-              <img src="../public/profilePhoto.jpg" alt="My Photo" className="w-[60%] md:w-[40%] lg:w-[35%] xl:w-[20%] rounded-full  self-center md:mb-8 lg:mb-12 xl:mb-16" />
+              <img src="../public/profilePhoto.jpg" alt="My Photo" className="w-[60%] md:w-[40%] lg:w-[35%] xl:w-[20%] rounded-full  self-center md:mb-8 lg:mb-12 xl:mb-16 shadow-2xl shadow-purple-700 " />
           <div className="h-full w-auto flex justify-center items-center flex-col text-white p-4 gap-2 ">     
             <div className="flex flex-col justify-start items-start border-l-2 p-4 ">
             <h1 className="text-4xl lg:text-6xl font-title-alt text-[var(--color-main)]">Bernardo Soares</h1>
@@ -22,8 +22,8 @@ const App = () => {
             <h2 className="text-6xl lg:text-7xl xl:text-9xl font-title text-[var(--color-main)]">Developer</h2>
             </div>
             <div className="flex flex-row justify-center items-center w-full gap-4 lg:gap-6 mt-2 xl:mt-6 font-title-sec h-auto">
-                <a href="/public/cv.docx" download  className=" text-black bg-white p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-110 hover:bg-[var(--color-main)] duration-800">Baixar CV</a>
-                <a href=""  className=" text-black bg-[var(--color-main)] p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-110 hover:bg-white duration-800">Contato</a>
+                <a href="/public/cv.docx" download  className=" text-black bg-white p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-[var(--color-main)] duration-800">Baixar CV</a>
+                <a href=""  className=" text-black bg-[var(--color-main)] p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-white duration-800">Contato</a>
             </div>  
           </div>
           </div>
