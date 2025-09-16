@@ -14,7 +14,7 @@ const Project = ({projectTitle, projectLink, projectText, githubLink}) => {
             <a href={githubLink} className="bg-[var(--color-main)] text-lg md:text-2xl xl:text-3xl p-2 md:p-4 md:px-6 px-4 cursor-pointer rounded-4xl hover:bg-[var(--color-white)] transition-all hover:scale-105 duration-1000 " target="_blank">
                 <span className=" ">GitHub</span></a>
             <a href={projectLink} className="bg-white text-lg md:text-2xl xl:text-3xl p-2 px-4 md:p-4 md:px-6 cursor-pointer rounded-4xl hover:bg-[var(--color-main)] transition-all hover:scale-105 duration-1000 " target="_blank">
-                <span className=" ">Projeto</span></a>
+                <span className=" ">Ver Projeto</span></a>
         </div>
 
       

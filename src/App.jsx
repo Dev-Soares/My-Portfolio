@@ -23,7 +23,7 @@ const App = () => {
             </div>
             <div className="flex flex-row justify-center items-center w-full gap-4 lg:gap-6 mt-2 xl:mt-6 font-title-sec h-auto">
                 <a href="/public/cv.docx" download  className=" text-black bg-white p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-[var(--color-main)] duration-800">Baixar CV</a>
-                <a href=""  className=" text-black bg-[var(--color-main)] p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-white duration-800">Contato</a>
+                <a href="https://wa.me/5524993092204?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços%20como%20Desenvolvedor."  className=" text-black bg-[var(--color-main)] p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-white duration-800">Contato</a>
             </div>  
           </div>
           </div>
@@ -45,7 +45,7 @@ const App = () => {
         </section>
         <section className="min-h-fit w-full my-8 p-6 flex flex-col gap-4 justify-center items-center">
            <div className="w-full h-auto p-4 rounded-2xl text-black font-title justify-center items-center flex text-4xl bg-[var(--color-main)] m-8 lg:text-5xl lg:p-5 lg:mb-16 xl:max-w-[85%] ">
-            <h2>Tecnologias</h2>
+            <h2>Habilidades</h2>
           </div>
           <div className="flex flex-wrap gap-4 justify-center lg:my-6 xl:my-24">
           <CardTech stackImg='nodeIcon.png' borderColor='border-[var(--color-main)] hover:bg-[var(--color-main)] transition-color duration-1000 ease-in-out' />
@@ -68,6 +68,14 @@ const App = () => {
             <Project projectTitle='Pork' projectLink='' projectText='O seu mais novo Cofrinho Digital! Uma aplicação completamente funcional que tem um objetivo, simplificar a sua economia, contando com Landing Page, Telas de login e Registro, e funcionalidades internas como dashboards atualizadas em tempo real e registro de gastos e metas!' githubLink='' />
           <Project projectTitle='Teste' projectLink='' projectText='O seu mais novo Cofrinho Digital! Uma aplicação completamente funcional que tem um objetivo, simplificar a sua economia, contando com Landing Page, Telas de login e Registro, e funcionalidades internas como dashboards atualizadas em tempo real e registro de gastos e metas!' githubLink='' />
           </div>
+          
+
+        </section>
+         <section className="min-h-fit w-full p-6 mt-8 flex flex-col justify-center items-center">
+          <div className="w-full h-auto p-4 rounded-2xl text-black font-title justify-center items-center flex text-4xl bg-[var(--color-main)] m-8 lg:text-5xl lg:p-5 lg:mb-16 xl:max-w-[85%] ">
+            <h2>Formas de Contato</h2>
+          </div>
+          
           
 
         </section>
