@@ -42,13 +42,13 @@ const App = () => {
           </div>
         </section>
         <section className="min-h-fit w-full flex justify-center items-center flex-col my-8 p-6">
-          <div className="w-full h-auto p-4 rounded-2xl text-black font-title justify-center items-center flex text-4xl lg:text-5xl lg:p-5 bg-white lg:mb-16 xl:max-w-[85%] ">
+          <div className="w-full h-auto py-4 rounded-2xl text-black font-title justify-center items-center flex text-4xl lg:text-5xl lg:py-5 bg-white lg:mb-16 xl:max-w-[85%] ">
             <h2>Sobre</h2>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center w-[90%] h-full rounded-4xl py-8 gap-4">
-            <div className="h-full w-fit font-text my-6 text-xl md:text-2xl lg:text-3xl xl:text-4xl flex flex-col gap-4 md:gap-6 justify-end items-center p-6 px-8 ">
+            <div className="h-full w-fit font-text my-6 text-xl md:text-2xl lg:text-3xl xl:text-4xl flex flex-col gap-4 md:gap-6 justify-end items-center ">
               <p data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out"
-               className="text-white md:max-w-[60%] border-l-4 p-6" >
+               className="text-white md:max-w-[60%] border-l-4 p-4" >
                 Sou Bernardo Soares, estudante de Sistemas de Informação e apaixonado por tecnologia e desenvolvimento de software. <span className="text-[var(--color-secondary)]"> Tenho interesse em desenvolvimento de sistemas, resolução de problemas e aprendizado contínuo. Busco constantemente aprimorar minhas habilidades técnicas e contribuir de forma proativa para os projetos em que estou envolvido.</span>
                
               </p>
