@@ -34,13 +34,11 @@ const App = () => {
             <h2>Sobre</h2>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center w-[90%] h-full rounded-4xl p-8 gap-4">
-            <div className="h-full w-full font-text mb-6 m-4 text-lg md:text-xl lg:text-2xl xl:text-3xl flex flex-col gap-4 md:gap-6">
-              <p className="text-white" >Sou Bernardo Soares, estudante de Sistemas de Informação e apaixonado por tecnologia e desenvolvimento de software. Atualmente, atuo como estagiário na área de TI da Prefeitura de Barra Mansa, onde tenho a oportunidade de aplicar na prática os conhecimentos adquiridos ao longo dos meus estudos, principalmente na parte de manutenção de hardware e serviços relacionados a rede.
+            <div className="h-full w-full font-text mb-6 m-4 text-lg md:text-xl lg:text-2xl xl:text-3xl flex flex-col gap-4 md:gap-6 border-l-3 p-6 px-8">
+              <p className="text-white" >Sou Bernardo Soares, estudante de Sistemas de Informação e apaixonado por tecnologia e desenvolvimento de software. <span className="text-[var(--color-main)]"> Tenho interesse em desenvolvimento de sistemas, resolução de problemas e aprendizado contínuo. Busco constantemente aprimorar minhas habilidades técnicas e contribuir de forma proativa para os projetos em que estou envolvido.</span> 
               </p>
-              <hr />
-              <p className="text-[var(--color-main)]">
-                Tenho interesse em desenvolvimento de sistemas, resolução de problemas e aprendizado contínuo. Busco constantemente aprimorar minhas habilidades técnicas e contribuir de forma proativa para os projetos em que estou envolvido. Estou sempre aberto a novos desafios que me permitam crescer como profissional e colaborar com soluções inovadoras na área de tecnologia.
-              </p>
+        
+              
             </div>
           </div>
         </section>
