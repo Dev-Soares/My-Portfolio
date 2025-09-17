@@ -2,9 +2,9 @@
 
 const Project = ({projectTitle, projectLink, projectText, githubLink}) => {
   return (
-    <div className='w-[90%] md:w-[70%] lg:w-[45%] xl:w-[35%] border-[var(--color-main)] border-2 flex flex-col p-6 md:p-10 gap-8 md:gap-12 rounded-2xl shadow-lg shadow-purple-700'>
+    <div className='w-[90%] md:w-[70%] lg:w-[45%] xl:w-[35%] border-[var(--color-main)] border-2 flex flex-col p-6 md:p-10 gap-8 md:gap-12 rounded-2xl shadow-md shadow-purple-600'>
         <div className="flex justify-center items-center m-4">
-            <h2 className="text-white text-3xl md:text-3xl lg:text-4xl xl:text-5xl font-title">{projectTitle}</h2>
+            <h2 className="text-[var(--color-main)] text-3xl md:text-3xl lg:text-4xl xl:text-5xl font-title">{projectTitle}</h2>
         </div>
         
         <div className="w-full flex justify-start items-center">

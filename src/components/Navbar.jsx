@@ -3,8 +3,6 @@
 
 const Navbar = () => {
 
-    
-
     return (
         <header className=" absolute w-full h-auto text-white z-50 top-0 ">
             <nav className="flex justify-center md:justify-around items-center p-5 ">
@@ -13,7 +11,7 @@ const Navbar = () => {
                 </div>
                    
                 <ul className="flex justify-center lg:text-lg xl:text-xl  items-center gap-12 xl:gap-16 p-4 font-title-sec">
-                    <li className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Sobre mim</li>
+                    <li className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Sobre </li>
                     <li className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Tecnologias</li>
                     <li className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Projetos</li>
                 </ul>

@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import CardTech from "./components/CardTech"
 import Project from "./components/Project"
 import { StarsBackground } from "./components/animate-ui/components/backgrounds/stars"
+import ContactBox from "./components/ContactBox"
 
 
 
@@ -22,7 +23,7 @@ const App = () => {
             <h2 className="text-6xl lg:text-7xl xl:text-9xl font-title text-[var(--color-main)]">Developer</h2>
             </div>
             <div className="flex flex-row justify-center items-center w-full gap-4 lg:gap-6 mt-2 xl:mt-6 font-title-sec h-auto">
-                <a href="/public/cv.docx" download  className=" text-black bg-white p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-[var(--color-main)] duration-800">Baixar CV</a>
+                <a href="/cv.docx" download  className=" text-black bg-white p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-[var(--color-main)] duration-800">Baixar CV</a>
                 <a href="https://wa.me/5524993092204?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços%20como%20Desenvolvedor."  className=" text-black bg-[var(--color-main)] p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-white duration-800">Contato</a>
             </div>  
           </div>
@@ -30,7 +31,7 @@ const App = () => {
         </section>
         <section className="min-h-fit w-full flex justify-center items-center flex-col my-8 p-6">
           <div className="w-full h-auto p-4 rounded-2xl text-black font-title justify-center items-center flex text-4xl lg:text-5xl lg:p-5 bg-white lg:mb-16 xl:max-w-[85%] ">
-            <h2>Sobre <span >Mim</span></h2>
+            <h2>Sobre</h2>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center w-[90%] h-full rounded-4xl p-8 gap-4">
             <div className="h-full w-full font-text mb-6 m-4 text-lg md:text-xl lg:text-2xl xl:text-3xl flex flex-col gap-4 md:gap-6">
@@ -60,7 +61,8 @@ const App = () => {
 
 
         </section>
-        <section className="min-h-fit w-full p-6 mt-8 flex flex-col justify-center items-center">
+        <StarsBackground >
+        <section className=" bg-black min-h-fit w-full p-6  flex flex-col justify-center items-center gap-8">
           <div className="w-full h-auto p-4 rounded-2xl text-black font-title justify-center items-center flex text-4xl bg-white m-8 lg:text-5xl lg:p-5 lg:mb-16 xl:max-w-[85%] ">
             <h2>Projetos</h2>
           </div>
@@ -71,14 +73,23 @@ const App = () => {
           
 
         </section>
-         <section className="min-h-fit w-full p-6 mt-8 flex flex-col justify-center items-center">
+        
+         <section className=" bg-black min-h-fit w-full p-6  flex flex-col justify-center items-center gap-4">
           <div className="w-full h-auto p-4 rounded-2xl text-black font-title justify-center items-center flex text-4xl bg-[var(--color-main)] m-8 lg:text-5xl lg:p-5 lg:mb-16 xl:max-w-[85%] ">
             <h2>Formas de Contato</h2>
+          </div>
+          <div className="flex flex-wrap gap-4 justify-center items-center">
+            <ContactBox contactIcon='../public/githubIcon.png'  contactLink='' />
+            <ContactBox contactIcon='../public/linkedinIcon.png' contactLink=''/>
+            <ContactBox contactIcon='../public/instagramIcon.png'  />
+            <ContactBox contactIcon='../public/emailIcon.png'  /> 
+            <ContactBox contactIcon='../public/whatsappIcon.png' />   
           </div>
           
           
 
         </section>
+        </StarsBackground>
       </main>
     </StarsBackground>
   )
