@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar"
+import Navbar from "./components/Navbar"
 import CardTech from "./components/CardTech"
 import Project from "./components/Project"
 import { StarsBackground } from "./components/animate-ui/components/backgrounds/stars"
