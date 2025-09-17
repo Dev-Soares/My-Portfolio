@@ -14,7 +14,7 @@ const App = () => {
         <Navbar />
         <section className="min-h-screen w-full flex flex-col md:flex-row md:justify-around justify-center items-center">
           <div className="flex flex-col justify-center items-center md:flex-row md:justify-center md:gap-3 lg:gap-6">  
-              <img src="../public/profilePhoto.jpg" alt="My Photo" className="w-[60%] md:w-[40%] lg:w-[35%] xl:w-[20%] rounded-full  self-center md:mb-8 lg:mb-12 xl:mb-16 shadow-2xl shadow-purple-700 " />
+              <img src="/profilePhoto.jpg" alt="My Photo" className="w-[60%] md:w-[40%] lg:w-[35%] xl:w-[20%] rounded-full  self-center md:mb-8 lg:mb-12 xl:mb-16 shadow-lg shadow-purple-500 " />
           <div className="h-full w-auto flex justify-center items-center flex-col text-white p-4 gap-2 ">     
             <div className="flex flex-col justify-start items-start border-l-2 p-4 ">
             <h1 className="text-4xl lg:text-6xl font-title-alt text-[var(--color-main)]">Bernardo Soares</h1>
