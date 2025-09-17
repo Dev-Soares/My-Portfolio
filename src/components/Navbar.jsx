@@ -4,9 +4,9 @@
 const Navbar = () => {
 
     return (
-        <header className=" absolute w-full h-auto text-white z-50 top-0 ">
+        <header className=" bg-gray-800 absolute w-full h-auto text-white z-50 top-0 ">
             <nav className="flex justify-center md:justify-around items-center p-5 ">
-                <div className=" hidden md:block text-xl md:text-2xl lg:text-3xl font-title text-white">
+                <div className=" hidden md:block text-xl md:text-2xl lg:text-3xl font-text text-white">
                     <h1 className="transition-all transform hover:text-[var(--color-main)] duration-800">Bernardo Soares</h1>
                 </div>
                    
