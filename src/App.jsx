@@ -6,19 +6,25 @@ import ContactBox from "./components/ContactBox"
 import Footer from "./components/Footer"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from "react"
-
-
-
+import { useEffect} from "react"
+import LoadingScreen from "./components/LoadingScreen"
+import { useContext } from "react"
+import { LoadingContext } from "./contexts/LoadingContext"
 
 const App = () => {
+
+  const { valorBarra } = useContext(LoadingContext)
 
   useEffect(() => {
     AOS.init({ once: true })
   }, [])
 
   return (
-    <StarsBackground >
+    valorBarra < 100 
+    ? <LoadingScreen />
+    : (
+      <>
+      <StarsBackground >
       <main className=" pb-24 ">
         <Navbar />
         <section className="min-h-screen w-full flex flex-col md:flex-row md:justify-around justify-center items-center">
@@ -107,6 +113,11 @@ const App = () => {
       </main>
       <Footer />
     </StarsBackground>
+    </>
+    )
+
+    
+
   )
 }
 

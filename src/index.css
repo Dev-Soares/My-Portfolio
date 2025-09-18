@@ -2,6 +2,7 @@
 @import "tw-animate-css";
 
 
+
 @custom-variant dark (&:is(.dark *));
 
 *{
@@ -38,7 +39,7 @@ main, header {
   }
 
   .font-title{
-    font-weight: 900;
+    font-weight: 800;
     
   }
 
@@ -53,6 +54,11 @@ main, header {
   
   .font-text{
     font-weight: 600;
+  }
+
+  .font-text-sec {
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
   }
 
   .link-animado::after {
