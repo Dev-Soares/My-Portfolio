@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap');
 
 
 
@@ -54,12 +55,25 @@ main, header {
   
   .font-text{
     font-weight: 600;
+    line-height: 1.3;
   }
 
   .font-text-sec {
-    font-family: 'inter', sans-serif;
-    font-weight: 500;
+     font-family: 'Poppins', sans-serif;
+  font-weight: 700; /* Peso negrito para dar destaque */
+  line-height: 1.2;
   }
+
+  .menu-item {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  }
+
+  .font-headline{
+     font-family: Inter, sans-serif;
+    font-weight: 800;
+  }
+
 
   .link-animado::after {
   content: '';

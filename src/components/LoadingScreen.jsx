@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import { Progress } from './components/ui/progress'
 import { LoadingContext } from '../contexts/LoadingContext'
+import { StarsBackground } from './animate-ui/components/backgrounds/stars'
 
 const LoadingScreen = () => {
   const { valorBarra, setValorBarra } = useContext(LoadingContext)
@@ -15,7 +16,8 @@ const LoadingScreen = () => {
   }, [valorBarra, setValorBarra])
 
   return (
-    <main className='w-full h-screen bg-gradient-to-b from-neutral-900 via-neutral-900 to-violet-900 flex flex-col justify-center items-center text-white  font-title-sec gap-8 lg:gap-14'>
+    <StarsBackground>
+    <main className='w-full h-screen bg-gradient-to-b from-black via-black to-violet-900 flex flex-col justify-center items-center text-white  font-headline gap-8 lg:gap-14'>
       <h1 className='text-3xl md:text-4xl lg:text-5xl' >Portfolio <span className='text-[var(--color-main)]'>Dev-Soares</span></h1>
       <div className='w-full flex justify-center items-center flex-row gap-4'>
         <Progress value={valorBarra} />
@@ -23,6 +25,7 @@ const LoadingScreen = () => {
       </div>
       
     </main>
+    </StarsBackground>
   )
 }
 

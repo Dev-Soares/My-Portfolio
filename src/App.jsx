@@ -42,7 +42,7 @@ const App = () => {
               <div data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay="200"
                 className="flex flex-row justify-center items-center w-full gap-4 lg:gap-6 mt-2 xl:mt-6 font-title-sec h-auto">
                 <a href="/cv.docx" download className=" text-black bg-white p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-[var(--color-main)] duration-800">Baixar CV</a>
-                <a href="https://wa.me/5524993092204?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços%20como%20Desenvolvedor." className=" text-black bg-[var(--color-main)] p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-white duration-800">Contato</a>
+                <a href="https://wa.me/5524993092204?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços%20como%20Desenvolvedor." className=" text-black bg-[var(--color-main)] p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-white duration-800" target="_blank">Contato</a>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@ const App = () => {
               <h2>Projetos</h2>
             </div>
             <div className="flex flex-wrap justify-center items-center gap-8 xl:gap-16">
-              <Project projectTitle='Pork' projectLink='' projectText='O seu mais novo Cofrinho Digital! Uma aplicação completamente funcional que tem um objetivo, simplificar a sua economia, contando com Landing Page, Telas de login e Registro, e funcionalidades internas como dashboards atualizadas em tempo real e registro de gastos e metas!' githubLink='' delay="200"/>
+              <Project projectTitle='Pork' projectLink='https://financepork.site/' projectText='O seu mais novo Cofrinho Digital! Uma aplicação completamente funcional que tem um objetivo, simplificar a sua economia, contando com Landing Page, Telas de login e Registro, e funcionalidades internas como dashboards atualizadas em tempo real e registro de gastos e metas!' githubLink='https://github.com/Dev-Soares/Pork' delay="200"/>
               <Project projectTitle='Teste' projectLink='' projectText='O seu mais novo Cofrinho Digital! Uma aplicação completamente funcional que tem um objetivo, simplificar a sua economia, contando com Landing Page, Telas de login e Registro, e funcionalidades internas como dashboards atualizadas em tempo real e registro de gastos e metas!' githubLink='' delay="400" />
             </div>
 
@@ -98,11 +98,11 @@ const App = () => {
               <h2>Contato</h2>
             </div>
             <div className="flex flex-wrap gap-4 justify-center items-center">
-              <ContactBox contactIcon='/githubIcon.png' contactLink='' delay="200" />
-              <ContactBox contactIcon='/linkedinIcon.png' contactLink='' delay="400" />
-              <ContactBox contactIcon='/instagramIcon.png' delay="600" />
-              <ContactBox contactIcon='/emailIcon.png' delay="800" />
-              <ContactBox contactIcon='/whatsappIcon.png' delay="1000" />
+              <ContactBox contactIcon='/githubIcon.png' contactLink='https://github.com/Dev-Soares' delay="200" />
+              <ContactBox contactIcon='/linkedinIcon.png' contactLink='https://www.linkedin.com/in/bernardo-soares-150096364/' delay="400" />
+              <ContactBox contactIcon='/instagramIcon.png' contactLink="https://www.instagram.com/__soaresbernardo/" delay="600" />
+              <ContactBox contactIcon='/emailIcon.png' contactLink="mailto:bernado.soares30@outlook.com?" delay="800" />
+              <ContactBox contactIcon='/whatsappIcon.png' contactLink="https://wa.me/5524993092204?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços%20como%20Desenvolvedor." delay="1000" />
             </div>
 
 
