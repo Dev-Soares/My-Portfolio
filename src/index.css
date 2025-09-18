@@ -17,7 +17,10 @@ img{
 
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
 }
 
 main, header {
@@ -41,37 +44,52 @@ main, header {
 
   .font-title{
     font-weight: 800;
+    font-feature-settings: "liga", "kern"; /* Ativa ligaduras e kerning */
+  text-rendering: optimizeLegibility;
     
   }
 
   .font-title-alt{
     font-weight: 600;
     font-style: italic;
+    font-feature-settings: "liga", "kern"; /* Ativa ligaduras e kerning */
+  text-rendering: optimizeLegibility;
   }
 
   .font-title-sec{
     font-weight: 700;
+    font-feature-settings: "liga", "kern"; /* Ativa ligaduras e kerning */
+  text-rendering: optimizeLegibility;
   }
   
   .font-text{
     font-weight: 600;
     line-height: 1.3;
+    font-feature-settings: "liga", "kern"; /* Ativa ligaduras e kerning */
+  text-rendering: optimizeLegibility;
   }
 
   .font-text-sec {
      font-family: 'Poppins', sans-serif;
   font-weight: 700; /* Peso negrito para dar destaque */
   line-height: 1.2;
+  font-feature-settings: "liga", "kern"; /* Ativa ligaduras e kerning */
+  text-rendering: optimizeLegibility;
   }
 
   .menu-item {
   font-family: Arial, sans-serif;
   font-weight: bold;
+  font-optical-sizing: auto;
+  font-feature-settings: "liga", "kern"; /* Ativa ligaduras e kerning */
+  text-rendering: optimizeLegibility;
   }
 
   .font-headline{
      font-family: Inter, sans-serif;
     font-weight: 800;
+    font-feature-settings: "liga", "kern"; /* Ativa ligaduras e kerning */
+    text-rendering: optimizeLegibility;
   }
 
 
