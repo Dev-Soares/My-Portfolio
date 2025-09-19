@@ -17,14 +17,19 @@ const LoadingScreen = () => {
 
   return (
     <StarsBackground>
-    <main className='w-full h-screen bg-gradient-to-b from-black via-black to-violet-900 flex flex-col justify-center items-center text-white  font-headline gap-8 lg:gap-14'>
-      <h1 className='text-3xl md:text-4xl lg:text-5xl' >Portfolio <span className='text-[var(--color-main)]'>Dev-Soares</span></h1>
-      <div className='w-full flex justify-center items-center flex-row gap-4'>
-        <Progress value={valorBarra} />
-        <h2 className='text-md md:text-lg'>{valorBarra}%</h2>
-      </div>
-      
-    </main>
+      <main className='w-full h-screen bg-gradient-to-b from-black to-violet-700 flex flex-col justify-center items-center text-white  font-headline gap-8 lg:gap-14'> 
+        <div className='w-full flex flex-col justify-center items-center gap-2 lg:gap-6'>
+          <div className='flex flex-col justify-center items-center gap-0 lg:gap-2px-8 '>
+                  <img src="logo.png" alt="Logo Bernardo Soares" />
+          </div>
+          <div className='flex flex-row justify-center items-center gap-4 lg:gap-6 w-[80%] md:w-[60%] lg:w-[40%]'>
+            <Progress value={valorBarra} />
+          <h2 className='text-md md:text-lg font-title-sec'>{valorBarra} %</h2>
+          </div>
+          
+        </div>
+
+      </main>
     </StarsBackground>
   )
 }

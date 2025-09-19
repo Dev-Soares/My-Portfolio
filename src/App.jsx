@@ -25,11 +25,11 @@ const App = () => {
     : (
       <>
       <StarsBackground >
-      <main className=" pb-24 ">
+      <main className=" pb-24  ">
         <Navbar />
-        <section className="min-h-screen w-full flex flex-col md:flex-row md:justify-around justify-center items-center">
+        <section className="min-h-screen w-full flex flex-col md:flex-row md:justify-around justify-center items-center mt-16">
           <div className="flex flex-col justify-center items-center md:flex-row md:justify-center md:gap-3 lg:gap-6">
-            <img src="/profilePhoto.jpg" alt="My Photo" className="w-[60%] md:w-[40%] lg:w-[35%] xl:w-[20%] rounded-full  self-center md:mb-8 lg:mb-12 xl:mb-16 shadow-lg shadow-purple-500 " />
+            <img src="/profilePhoto.jpg" alt="My Photo" className="w-[40%] md:w-[30%] lg:w-[25%] xl:w-[20%] rounded-full  self-center md:mb-8 lg:mb-12 xl:mb-16 shadow-lg shadow-purple-500 " />
             <div className="h-full w-auto flex justify-center items-center flex-col text-white p-4 gap-2 ">
               <div
                 className="flex flex-col justify-start items-start border-l-2 p-4 lg:px-8 ">
@@ -52,9 +52,10 @@ const App = () => {
             <h2>Sobre</h2>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center w-[90%] h-full rounded-4xl py-8 gap-4">
-            <div className="h-full w-fit font-text my-6 text-xl md:text-2xl lg:text-3xl xl:text-4xl flex flex-col gap-4 md:gap-6 justify-end items-center ">
+            <div className="h-full w-fit font-text my-6 text-xl md:text-2xl lg:text-3xl xl:text-4xl flex flex-col lg:flex-row gap-4 md:gap-6 justify-end items-center ">
+              <img src="logo.png" alt="" className="w-[50%]" />
               <p data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out"
-               className="text-white md:max-w-[60%] border-l-4 p-4" >
+               className="text-white md:max-w-[60%] border-l-4 p-4 px-8" >
                 Sou Bernardo Soares, estudante de Sistemas de Informação e apaixonado por tecnologia e desenvolvimento de software. <span className="text-[var(--color-secondary)]"> Tenho interesse em desenvolvimento de sistemas, resolução de problemas e aprendizado contínuo. Busco constantemente aprimorar minhas habilidades técnicas e contribuir de forma proativa para os projetos em que estou envolvido.</span>
                
               </p>

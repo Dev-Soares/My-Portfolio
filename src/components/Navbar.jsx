@@ -5,12 +5,12 @@ const Navbar = () => {
 
     return (
         <header className=" bg-gray-800 absolute w-full h-auto text-white z-50 top-0 ">
-            <nav className="flex justify-center md:justify-around items-center p-5 ">
-                <div className=" hidden md:block text-xl md:text-2xl lg:text-3xl font-headline text-white">
-                    <h1 className="transition-all transform hover:text-[var(--color-main)] duration-800">Bernardo Soares</h1>
+            <nav className="flex justify-center md:justify-between lg:justify-around items-center p-5 ">
+                <div className=" w-[20%] hidden md:flex flex-col justify-center items-center ">
+                  <img src="logo.png" alt="Logo Bernardo Soares" className="w-[60%] lg:w-[40%] xl:w-[30%]" />
                 </div>
                    
-                <ul className="flex justify-center lg:text-lg xl:text-xl  items-center gap-12 xl:gap-16 p-4 menu-item">
+                <ul className="flex justify-center text-lg lg:text-xl xl:text-2xl  items-center gap-12 xl:gap-16 p-4 menu-item">
                     <li className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Sobre </li>
                     <li className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Tecnologias</li>
                     <li className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Projetos</li>
@@ -22,3 +22,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+5

@@ -70,7 +70,7 @@ main, header {
   }
 
   .font-text-sec {
-     font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
   font-weight: 700; /* Peso negrito para dar destaque */
   line-height: 1.2;
   font-feature-settings: "liga", "kern"; /* Ativa ligaduras e kerning */
