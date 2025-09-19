@@ -24,7 +24,7 @@ const LoadingScreen = () => {
           </div>
           <div className='flex flex-row justify-center items-center gap-4 lg:gap-6 w-[80%] md:w-[60%] lg:w-[40%]'>
             <Progress value={valorBarra} />
-          <h2 className='text-md md:text-lg font-title-sec'>{valorBarra} %</h2>
+          <h2 className='text-md md:text-lg font-text'>{valorBarra} %</h2>
           </div>
           
         </div>
