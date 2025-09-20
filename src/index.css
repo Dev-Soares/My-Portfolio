@@ -81,7 +81,7 @@ main, header {
 
   .menu-item {
    font-family: 'Roboto', sans-serif; 
-  font-weight: 700;
+  font-weight: 600;
   font-optical-sizing: auto;
   font-feature-settings: "liga", "kern"; /* Ativa ligaduras e kerning */
   text-rendering: optimizeLegibility;
