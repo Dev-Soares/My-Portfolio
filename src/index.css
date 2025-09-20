@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
@@ -80,8 +80,8 @@ main, header {
   }
 
   .menu-item {
-   font-family: 'Source Sans Pro', sans-serif; 
-  font-weight: bold;
+   font-family: 'Roboto', sans-serif; 
+  font-weight: 700;
   font-optical-sizing: auto;
   font-feature-settings: "liga", "kern"; /* Ativa ligaduras e kerning */
   text-rendering: optimizeLegibility;
