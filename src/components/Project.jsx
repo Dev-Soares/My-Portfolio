@@ -11,9 +11,9 @@ const Project = ({projectTitle, projectLink, projectText, githubLink, delay}) =>
             <p className="text-lg md:text-2xl text-white font-text">{projectText}</p>
         </div>
         <div className="w-full h-full flex justify-around items-center font-title-sec gap-2">
-            <a href={githubLink} className="bg-[var(--color-main)] text-lg md:text-2xl xl:text-3xl p-2 md:p-4 md:px-6 px-4 cursor-pointer rounded-4xl hover:bg-[var(--color-white)] transition-all hover:scale-101 duration-1000 " target="_blank">
+            <a href={githubLink} className="bg-[var(--color-main)] text-lg md:text-2xl xl:text-3xl p-2 md:p-4 md:px-6 px-4 cursor-pointer rounded-4xl hover:bg-[var(--color-white)] transition-all hover:scale-103 duration-1000 " target="_blank">
                 <span className=" ">GitHub</span></a>
-            <a href={projectLink} className="bg-white text-lg md:text-2xl xl:text-3xl p-2 px-4 md:p-4 md:px-6 cursor-pointer rounded-4xl hover:bg-[var(--color-main)] transition-all hover:scale-101 duration-1000 " target="_blank">
+            <a href={projectLink} className="bg-white text-lg md:text-2xl xl:text-3xl p-2 px-4 md:p-4 md:px-6 cursor-pointer rounded-4xl hover:bg-[var(--color-main)] transition-all hover:scale-103 duration-1000 " target="_blank">
                 <span className=" ">Ver Projeto</span></a>
         </div>
 

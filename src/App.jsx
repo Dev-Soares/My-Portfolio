@@ -25,8 +25,8 @@ const App = () => {
     : (
       <>
       <StarsBackground >
-      <main className=" pb-24  ">
-        <Navbar />
+      <main >
+          <Navbar />       
         <section className="min-h-screen w-full flex flex-col md:flex-row md:justify-around justify-center items-center mt-16">
           <div className="flex flex-col justify-center items-center md:flex-row md:justify-center md:gap-3 lg:gap-6">
             <img src="/profilePhoto.jpg" alt="My Photo" className="w-[60%] md:w-[30%] lg:w-[25%] xl:w-[20%] rounded-full  self-center md:mb-8 lg:mb-12 xl:mb-16 shadow-lg shadow-purple-500 " />
@@ -41,8 +41,8 @@ const App = () => {
               </div>
               <div data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay="200"
                 className="flex flex-row justify-center items-center w-full gap-4 lg:gap-6 mt-2 xl:mt-6 font-title-sec h-auto">
-                <a href="/cv.docx" download className=" text-black bg-white p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-101 hover:bg-[var(--color-main)] duration-800">Baixar CV</a>
-                <a href="https://wa.me/5524993092204?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços%20como%20Desenvolvedor." className=" text-black bg-[var(--color-main)] p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-101 hover:bg-white duration-800" target="_blank">Contato</a>
+                <a href="/cv.docx" download className=" text-black bg-white p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-103 hover:bg-[var(--color-main)] duration-800">Baixar CV</a>
+                <a href="https://wa.me/5524993092204?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços%20como%20Desenvolvedor." className=" text-black bg-[var(--color-main)] p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-103 hover:bg-white duration-800" target="_blank">Contato</a>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@ const App = () => {
 
           </section>
 
-          <section className=" bg-black min-h-fit w-full p-6  flex flex-col justify-center items-center gap-4">
+          <section className="pb-34 bg-black min-h-fit w-full p-6  flex flex-col justify-center items-center gap-4">
             <div className="w-full h-auto p-4 rounded-2xl text-black font-title justify-center items-center flex text-4xl bg-[var(--color-main)] m-8 lg:text-5xl lg:p-5 lg:mb-16 xl:max-w-[85%] ">
               <h2>Contato</h2>
             </div>

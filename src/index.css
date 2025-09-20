@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 
 
@@ -78,7 +79,7 @@ main, header {
   }
 
   .menu-item {
-  font-family: Arial, sans-serif;
+   font-family: 'Source Sans Pro', sans-serif; 
   font-weight: bold;
   font-optical-sizing: auto;
   font-feature-settings: "liga", "kern"; /* Ativa ligaduras e kerning */

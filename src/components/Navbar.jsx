@@ -4,7 +4,8 @@
 const Navbar = () => {
 
     return (
-        <header className=" bg-gray-800 absolute w-full h-auto text-white z-50 top-0 ">
+        
+        <header className="absolute w-full h-auto text-white z-10 top-0 ">
             <nav className="flex justify-center md:justify-between lg:justify-around items-center p-5 ">
                 <div className=" w-[20%] hidden md:flex flex-col justify-center items-center ">
                   <img src="logo.png" alt="Logo Bernardo Soares" className="w-[60%] lg:w-[40%] xl:w-[30%]" />
@@ -17,6 +18,7 @@ const Navbar = () => {
                 </ul>
             </nav>
         </header>
+        
 
     )
 }
