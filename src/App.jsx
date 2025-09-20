@@ -41,8 +41,8 @@ const App = () => {
               </div>
               <div data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay="200"
                 className="flex flex-row justify-center items-center w-full gap-4 lg:gap-6 mt-2 xl:mt-6 font-title-sec h-auto">
-                <a href="/cv.docx" download className=" text-black bg-white p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-[var(--color-main)] duration-800">Baixar CV</a>
-                <a href="https://wa.me/5524993092204?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços%20como%20Desenvolvedor." className=" text-black bg-[var(--color-main)] p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-105 hover:bg-white duration-800" target="_blank">Contato</a>
+                <a href="/cv.docx" download className=" text-black bg-white p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-101 hover:bg-[var(--color-main)] duration-800">Baixar CV</a>
+                <a href="https://wa.me/5524993092204?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços%20como%20Desenvolvedor." className=" text-black bg-[var(--color-main)] p-3 px-5 rounded-lg text-xl md:text-2xl lg:text-3xl lg:p-4 lg:px-6 h-full transition-all transform hover:scale-101 hover:bg-white duration-800" target="_blank">Contato</a>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ const App = () => {
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center w-[90%] h-full rounded-4xl py-8 gap-4">
             <div className="h-full w-fit font-text my-6 text-xl md:text-2xl lg:text-3xl xl:text-4xl flex flex-col lg:flex-row gap-4 md:gap-6 justify-end items-center ">
-              <img src="logo.png" alt="" className="w-[25%]" />
+              <img src="logo.png" alt="" className="w-[55%] md:w-[35%] lg:w-[24%]" />
               <p data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out"
                className="text-white md:max-w-[60%] border-l-4 p-4 px-8" >
                 Sou Bernardo Soares, estudante de Sistemas de Informação e apaixonado por tecnologia e desenvolvimento de software. <span className="text-[var(--color-secondary)]"> Tenho interesse em desenvolvimento de sistemas, resolução de problemas e aprendizado contínuo. Busco constantemente aprimorar minhas habilidades técnicas e contribuir de forma proativa para os projetos em que estou envolvido.</span>
