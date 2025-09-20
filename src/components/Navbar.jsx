@@ -12,9 +12,20 @@ const Navbar = () => {
                 </div>
                    
                 <ul className="flex justify-center text-lg lg:text-xl xl:text-2xl  items-center gap-12 xl:gap-16 p-4 menu-item">
-                    <li className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Sobre </li>
-                    <li className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Tecnologias</li>
-                    <li className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Projetos</li>
+                    
+                    <li>
+                        <a href="#sobre"
+                    className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Sobre </a>
+                    </li>
+                    <li>
+                        <a href="#techs"
+                    className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Tecnologias</a>
+                    </li>
+                    <li>
+                         <a href="#projetos"
+                    className="relative link-animado transition-all transform hover:text-[var(--color-main)] duration-800 cursor-pointer">Projetos</a>
+                    </li>
+                   
                 </ul>
             </nav>
         </header>

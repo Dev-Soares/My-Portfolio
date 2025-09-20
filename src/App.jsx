@@ -47,7 +47,7 @@ const App = () => {
             </div>
           </div>
         </section>
-        <section className="min-h-fit w-full flex justify-center items-center flex-col my-8 p-6">
+        <section className="min-h-fit w-full flex justify-center items-center flex-col my-8 p-6" id="sobre">
           <div className="w-full h-auto py-4 rounded-2xl text-black font-title justify-center items-center flex text-4xl lg:text-5xl lg:py-5 bg-white lg:mb-16 xl:max-w-[85%] ">
             <h2>Sobre</h2>
           </div>
@@ -64,7 +64,7 @@ const App = () => {
             </div>
           </div>
         </section>
-        <section className="min-h-fit w-full my-8 p-6 flex flex-col gap-4 justify-center items-center">
+        <section className="min-h-fit w-full my-8 p-6 flex flex-col gap-4 justify-center items-center " id="techs">
           <div className="w-full h-auto p-4 rounded-2xl text-black font-title justify-center items-center flex text-4xl bg-[var(--color-main)] m-8 lg:text-5xl lg:p-5 lg:mb-16 xl:max-w-[85%] ">
             <h2>Habilidades</h2>
           </div>
@@ -82,13 +82,12 @@ const App = () => {
 
         </section>
         <StarsBackground >
-          <section className=" bg-black min-h-fit w-full p-6  flex flex-col justify-center items-center gap-8">
+          <section className=" bg-black min-h-fit w-full p-6  flex flex-col justify-center items-center gap-8" id="projetos">
             <div className="w-full h-auto p-4 rounded-2xl text-black font-title justify-center items-center flex text-4xl bg-white m-8 lg:text-5xl lg:p-5 lg:mb-16 xl:max-w-[85%] ">
               <h2>Projetos</h2>
             </div>
             <div className="flex flex-wrap justify-center items-center gap-8 xl:gap-16">
               <Project projectTitle='Pork' projectLink='https://financepork.site/' projectText='O seu mais novo Cofrinho Digital! Uma aplicação completamente funcional que tem um objetivo, simplificar a sua economia, contando com Landing Page, Telas de login e Registro, e funcionalidades internas como dashboards atualizadas em tempo real e registro de gastos e metas!' githubLink='https://github.com/Dev-Soares/Pork' delay="200"/>
-              <Project projectTitle='Teste' projectLink='' projectText='O seu mais novo Cofrinho Digital! Uma aplicação completamente funcional que tem um objetivo, simplificar a sua economia, contando com Landing Page, Telas de login e Registro, e funcionalidades internas como dashboards atualizadas em tempo real e registro de gastos e metas!' githubLink='' delay="400" />
             </div>
 
 
