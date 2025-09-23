@@ -80,7 +80,9 @@ main, header {
   }
 
   .menu-item {
-   font-family: 'Roboto', sans-serif; 
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+
   font-weight: 600;
   font-optical-sizing: auto;
   font-feature-settings: "liga", "kern"; /* Ativa ligaduras e kerning */
