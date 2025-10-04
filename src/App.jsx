@@ -87,7 +87,7 @@ const App = () => {
               <h2>Projetos</h2>
             </div>
             <div className="flex flex-wrap justify-center items-center gap-8 xl:gap-16">
-              <Project projectTitle='Pork' projectLink='https://financepork.site/' projectText='O seu mais novo Cofrinho Digital! Uma aplicação completamente funcional que tem um objetivo, simplificar a sua economia, contando com Landing Page, Telas de login e Registro, e funcionalidades internas como dashboards atualizadas em tempo real e registro de gastos e metas!' githubLink='https://github.com/Dev-Soares/Pork' delay="200"/>
+              <Project projectTitle='Pork' projectLink='https://financepork.site/' projectPic='pork.png' projectText='O seu mais novo Cofrinho Digital! Uma aplicação completamente funcional que tem um objetivo, simplificar a sua economia, contando com Landing Page, Telas de login e Registro, e funcionalidades internas como dashboards atualizadas em tempo real e registro de gastos e metas!' githubLink='https://github.com/Dev-Soares/Pork' delay="200"/>
             </div>
 
 
